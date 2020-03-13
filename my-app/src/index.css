@@ -1,0 +1,138 @@
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+}
+
+ol, ul {
+  padding-left: 30px;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.player {
+  margin-bottom: 10px;
+}
+
+.card {
+  margin-bottom: 10px;
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.parite_deck {
+  background: #35654d;
+}
+
+.parite_hand {
+  background: #999;
+}
+
+.game-info {
+  color: #999;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.create_user {
+  margin-top: 20px;
+}
+
+.create_game {
+  margin-top: 20px;
+}
+
+.join_game {
+  margin-top: 5px;
+}
+
+.user_type_box {
+  margin-top: 50px;
+}
+
+.all_players {
+  margin-top: 10px;
+}
+
+.user {
+  margin-left: 10px;
+}
+
+.refresh_button {
+  margin-top: 20px;
+}
+
+.parite_card {
+  border: 1px solid #000;
+  background: #FFF;
+  display:inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.red {
+  color: rgb(230, 42, 42);
+}
+
+.white {
+  color: #ddd;
+}
+
+.draw_button {
+  margin-top: 5px;
+}
+
+.block {
+  display:inline-block;
+}
+
+.pad_left {
+  margin-left: 5px;
+}
+
+.game_table {
+  background: #35654d;
+}
+
+.parite_card_down {
+  display:inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 1px;
+  margin-right: 1px;
+}
